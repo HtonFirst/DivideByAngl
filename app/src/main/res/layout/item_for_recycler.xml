@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llv_divider_list"
+    android:layout_width="20dp"
+    android:layout_height="22dp"
+    android:orientation="vertical"
+    android:background="@drawable/frame_field">
+
+
+    <TextView
+        android:id="@+id/tv_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_gravity="center"
+        android:textColor="@color/ink_color"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv_item_top_line"
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:background="@color/lightBlueTwo" />
+
+
+
+    <TextView
+        android:id="@+id/tv_item_bottom_line"
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/lightBlueTwo" />
+
+    <TextView
+        android:id="@+id/tv_item_start_line"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_gravity="start"
+        android:background="@color/lightBlueTwo" />
+
+    <TextView
+        android:id="@+id/tv_item_end_line"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:background="@color/lightBlueTwo" />
+    
+
+
+
+</FrameLayout>
